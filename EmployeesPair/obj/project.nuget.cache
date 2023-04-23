@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7IiFPbdFM3gODFH79OBtWPFN4RIFNt7dBq20U27M88KKXgq/d2qcM2I6UarefKdNSm6KZcGDH7qqcmPJIWpa4w==",
+  "success": true,
+  "projectFilePath": "D:\\C# Practice\\EmployeesPairApp\\EmployeesPair\\EmployeesPair.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
