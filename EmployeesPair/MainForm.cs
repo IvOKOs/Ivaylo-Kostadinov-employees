@@ -31,7 +31,7 @@ namespace EmployeesPair
                 file = openFileDialog.FileName; 
             }
 
-            List<EmployeeModel> employees = _csvService.ConvertFileToObject(file, dateFormatsCombobox.SelectedItem.ToString()); 
+            List<EmployeeModel> employees = _csvService.ConvertFileToObject(file); 
             if (employees.Count == 0)
             {
                 MessageBox.Show("File is empty or it has invalid format. Please, choose another file",
@@ -41,7 +41,7 @@ namespace EmployeesPair
                 return; 
             }
 
-            PopulateAllEmployeesDatagrid(employees); 
+            PopulateAllEmployeesDatagrid(employees, dateFormatsCombobox.SelectedItem.ToString()); 
 
             pairLongestTime = _employeePairService.GetFinalEmployeePair(employees); 
 
@@ -92,7 +92,7 @@ namespace EmployeesPair
             empPairDatagridView.DataSource = dataTable; 
         }
 
-        private void PopulateAllEmployeesDatagrid(List<EmployeeModel> employees) 
+        private void PopulateAllEmployeesDatagrid(List<EmployeeModel> employees, string format) 
         {
             allEmployeesLabel.Visible = true; 
             allEmpDatagridView.Visible = true;
@@ -104,10 +104,13 @@ namespace EmployeesPair
 
             foreach (EmployeeModel employee in employees)
             {
+                string dateFrom = employee.DateFrom.ToString(format); 
+                string dateTo = employee.DateTo.ToString(format); 
+
                 dt.Rows.Add(employee.EmpId,
                     employee.ProjectId,
-                    employee.DateFrom,
-                    employee.DateTo);
+                    dateFrom,
+                    dateTo); 
             }
 
             allEmpDatagridView.DataSource = dt; 

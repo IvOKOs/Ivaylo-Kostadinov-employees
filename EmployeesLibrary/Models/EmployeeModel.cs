@@ -2,10 +2,18 @@
 {
     public class EmployeeModel
     {
-        public int EmpId { get; set; }
-        public int ProjectId { get; set; }
-        public string? DateFrom { get; set; }
-        public string? DateTo { get; set; } 
+        public EmployeeModel(int empId, int projectId, DateTime dateFrom, DateTime dateTo)
+        {
+            EmpId = empId;
+            ProjectId = projectId;
+            DateFrom = dateFrom;
+            DateTo = dateTo;
+        }
+
+        public int EmpId { get; }
+        public int ProjectId { get; }
+        public DateTime DateFrom { get; }
+        public DateTime DateTo { get; } 
 
     }
 }

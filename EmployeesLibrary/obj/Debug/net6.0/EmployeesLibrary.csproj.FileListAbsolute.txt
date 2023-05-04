@@ -10,3 +10,15 @@ D:\C# Practice\EmployeesPairApp\EmployeesLibrary\obj\Debug\net6.0\EmployeesLibra
 D:\C# Practice\EmployeesPairApp\EmployeesLibrary\obj\Debug\net6.0\refint\EmployeesLibrary.dll
 D:\C# Practice\EmployeesPairApp\EmployeesLibrary\obj\Debug\net6.0\EmployeesLibrary.pdb
 D:\C# Practice\EmployeesPairApp\EmployeesLibrary\obj\Debug\net6.0\ref\EmployeesLibrary.dll
+D:\C# Practice\employees\Ivaylo-Kostadinov-employees\EmployeesLibrary\bin\Debug\net6.0\EmployeesLibrary.deps.json
+D:\C# Practice\employees\Ivaylo-Kostadinov-employees\EmployeesLibrary\bin\Debug\net6.0\EmployeesLibrary.dll
+D:\C# Practice\employees\Ivaylo-Kostadinov-employees\EmployeesLibrary\bin\Debug\net6.0\EmployeesLibrary.pdb
+D:\C# Practice\employees\Ivaylo-Kostadinov-employees\EmployeesLibrary\obj\Debug\net6.0\EmployeesLibrary.csproj.AssemblyReference.cache
+D:\C# Practice\employees\Ivaylo-Kostadinov-employees\EmployeesLibrary\obj\Debug\net6.0\EmployeesLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Practice\employees\Ivaylo-Kostadinov-employees\EmployeesLibrary\obj\Debug\net6.0\EmployeesLibrary.AssemblyInfoInputs.cache
+D:\C# Practice\employees\Ivaylo-Kostadinov-employees\EmployeesLibrary\obj\Debug\net6.0\EmployeesLibrary.AssemblyInfo.cs
+D:\C# Practice\employees\Ivaylo-Kostadinov-employees\EmployeesLibrary\obj\Debug\net6.0\EmployeesLibrary.csproj.CoreCompileInputs.cache
+D:\C# Practice\employees\Ivaylo-Kostadinov-employees\EmployeesLibrary\obj\Debug\net6.0\EmployeesLibrary.dll
+D:\C# Practice\employees\Ivaylo-Kostadinov-employees\EmployeesLibrary\obj\Debug\net6.0\refint\EmployeesLibrary.dll
+D:\C# Practice\employees\Ivaylo-Kostadinov-employees\EmployeesLibrary\obj\Debug\net6.0\EmployeesLibrary.pdb
+D:\C# Practice\employees\Ivaylo-Kostadinov-employees\EmployeesLibrary\obj\Debug\net6.0\ref\EmployeesLibrary.dll

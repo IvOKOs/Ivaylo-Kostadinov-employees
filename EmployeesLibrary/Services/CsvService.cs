@@ -12,38 +12,40 @@ namespace EmployeesLibrary.Services
             }
         } 
 
-        private EmployeeModel ConvertLineFromCsv(string csvLine, string format)
+        private EmployeeModel ConvertLineFromCsv(string csvLine)
         {
             string[] values = csvLine.Split(',');
 
-            EmployeeModel employee = new EmployeeModel
-            {
-                EmpId = Convert.ToInt32(values[0]),
-                ProjectId = Convert.ToInt32(values[1]),
-                DateFrom = ConvertDateFormat(values[2], format),
-                DateTo = ConvertDateFormat(values[3], format) 
-            };
+            int empId = Convert.ToInt32(values[0]);
+            int projectId = Convert.ToInt32(values[1]);
+            DateTime dateFrom = ConvertDateFormat(values[2]);
+            DateTime dateTo = ConvertDateFormat(values[3]); 
+
+            EmployeeModel employee = new EmployeeModel(empId, projectId, dateFrom, dateTo); 
+
             return employee;
         }
 
-        private string ConvertDateFormat(string value, string format)
+        private DateTime ConvertDateFormat(string value)
         {
             DateTime dateTime = DateTime.Now;
 
-            if(value != "NULL")
+            if (value != "NULL")
             {
-                dateTime = DateTime.Parse(value);
+                if (!DateTime.TryParse(value, out dateTime))
+                {
+                    throw new ArgumentException("A valid value was not provided", value);
+                }
             }
 
-            string date = dateTime.ToString(format); 
-            return date; 
+            return dateTime;
         }
 
-        public List<EmployeeModel> ConvertFileToObject(string filePath, string format)
+        public List<EmployeeModel> ConvertFileToObject(string filePath)
         {
             List<EmployeeModel> employeeRecords = File.ReadAllLines(filePath)
                                                         .Skip(1)
-                                                        .Select(e => ConvertLineFromCsv(e, format))
+                                                        .Select(e => ConvertLineFromCsv(e))
                                                         .ToList();
             return employeeRecords;
         }

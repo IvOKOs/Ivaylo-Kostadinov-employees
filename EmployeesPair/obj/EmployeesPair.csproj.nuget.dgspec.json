@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# Practice\\EmployeesPairApp\\EmployeesPair\\EmployeesPair.csproj": {}
+    "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesPair\\EmployeesPair.csproj": {}
   },
   "projects": {
-    "D:\\C# Practice\\EmployeesPairApp\\EmployeesLibrary\\EmployeesLibrary.csproj": {
+    "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesLibrary\\EmployeesLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Practice\\EmployeesPairApp\\EmployeesLibrary\\EmployeesLibrary.csproj",
+        "projectUniqueName": "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesLibrary\\EmployeesLibrary.csproj",
         "projectName": "EmployeesLibrary",
-        "projectPath": "D:\\C# Practice\\EmployeesPairApp\\EmployeesLibrary\\EmployeesLibrary.csproj",
+        "projectPath": "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesLibrary\\EmployeesLibrary.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Practice\\EmployeesPairApp\\EmployeesLibrary\\obj\\",
+        "outputPath": "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\C# Practice\\EmployeesPairApp\\EmployeesPair\\EmployeesPair.csproj": {
+    "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesPair\\EmployeesPair.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Practice\\EmployeesPairApp\\EmployeesPair\\EmployeesPair.csproj",
+        "projectUniqueName": "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesPair\\EmployeesPair.csproj",
         "projectName": "EmployeesPair",
-        "projectPath": "D:\\C# Practice\\EmployeesPairApp\\EmployeesPair\\EmployeesPair.csproj",
+        "projectPath": "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesPair\\EmployeesPair.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Practice\\EmployeesPairApp\\EmployeesPair\\obj\\",
+        "outputPath": "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesPair\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\C# Practice\\EmployeesPairApp\\EmployeesLibrary\\EmployeesLibrary.csproj": {
-                "projectPath": "D:\\C# Practice\\EmployeesPairApp\\EmployeesLibrary\\EmployeesLibrary.csproj"
+              "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesLibrary\\EmployeesLibrary.csproj": {
+                "projectPath": "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesLibrary\\EmployeesLibrary.csproj"
               }
             }
           }
