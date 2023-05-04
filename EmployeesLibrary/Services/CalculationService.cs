@@ -15,16 +15,16 @@ namespace EmployeesLibrary.Services
 
         private DateTime CalculateEarlierDate(EmployeeModel firstEmployee, EmployeeModel secondEmployee)
         {
-            DateTime firstEmpDateFrom = DateTime.Parse(firstEmployee.DateFrom);
-            DateTime secondEmpDateFrom = DateTime.Parse(secondEmployee.DateFrom); 
+            DateTime firstEmpDateFrom = firstEmployee.DateFrom;
+            DateTime secondEmpDateFrom = secondEmployee.DateFrom; 
 
             return firstEmpDateFrom >= secondEmpDateFrom ? firstEmpDateFrom : secondEmpDateFrom; 
         }
 
         private DateTime CalculateLaterDate(EmployeeModel firstEmployee, EmployeeModel secondEmployee)
         {
-            DateTime firstEmpDateTo = DateTime.Parse(firstEmployee.DateTo);
-            DateTime secondEmpDateTo = DateTime.Parse(secondEmployee.DateTo); 
+            DateTime firstEmpDateTo = firstEmployee.DateTo;
+            DateTime secondEmpDateTo = secondEmployee.DateTo; 
 
             return firstEmpDateTo <= secondEmpDateTo ? firstEmpDateTo : secondEmpDateTo; 
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# Practice\\EmployeesPairApp\\EmployeesLibrary\\EmployeesLibrary.csproj",
+      "projectUniqueName": "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesLibrary\\EmployeesLibrary.csproj",
       "projectName": "EmployeesLibrary",
-      "projectPath": "D:\\C# Practice\\EmployeesPairApp\\EmployeesLibrary\\EmployeesLibrary.csproj",
+      "projectPath": "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesLibrary\\EmployeesLibrary.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\C# Practice\\EmployeesPairApp\\EmployeesLibrary\\obj\\",
+      "outputPath": "D:\\C# Practice\\employees\\Ivaylo-Kostadinov-employees\\EmployeesLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
